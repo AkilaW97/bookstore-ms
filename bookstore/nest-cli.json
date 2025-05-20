@@ -27,6 +27,33 @@
       "compilerOptions": {
         "tsConfigPath": "apps/bookstore/tsconfig.app.json"
       }
+    },
+    "services/books": {
+      "type": "application",
+      "root": "apps/services/books",
+      "entryFile": "main",
+      "sourceRoot": "apps/services/books/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/services/books/tsconfig.app.json"
+      }
+    },
+    "services/orders": {
+      "type": "application",
+      "root": "apps/services/orders",
+      "entryFile": "main",
+      "sourceRoot": "apps/services/orders/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/services/orders/tsconfig.app.json"
+      }
+    },
+    "services/users": {
+      "type": "application",
+      "root": "apps/services/users",
+      "entryFile": "main",
+      "sourceRoot": "apps/services/users/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/services/users/tsconfig.app.json"
+      }
     }
   }
 }
